@@ -29,6 +29,8 @@ plugins = {
     branch = 'release',
   },
   'tpope/vim-fugitive',
+  'zbirenbaum/copilot.lua',
+  'David-Kunz/jester',
 }
 
 opts = {}
