@@ -24,3 +24,6 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz')
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+vim.api.nvim_set_keymap('n', '<leader>rt', ':lua require"jester".run()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>rf', ':lua require"jester".run_file()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dt', ':lua require"jester".debug()<CR>', { noremap = true, silent = true })

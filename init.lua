@@ -38,6 +38,7 @@ plugins = {
   'tpope/vim-fugitive',
   'zbirenbaum/copilot.lua',
   'David-Kunz/jester',
+  'mfussenegger/nvim-dap',
 }
 
 opts = {}
