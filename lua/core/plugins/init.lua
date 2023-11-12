@@ -1,0 +1,8 @@
+require("core.plugins.everforest")
+require("core.plugins.lualine")
+require("core.plugins.nvim-tree")
+require("core.plugins.telescope")
+require("core.plugins.treesitter")
+require("core.plugins.lsp_config")
+require("core.plugins.autopairs")
+require("core.plugins.coc")
