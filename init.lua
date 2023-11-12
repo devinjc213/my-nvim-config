@@ -27,7 +27,8 @@ plugins = {
   {
     'neoclide/coc.nvim',
     branch = 'release',
-  }
+  },
+  'tpope/vim-fugitive',
 }
 
 opts = {}
